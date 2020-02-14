@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Cadastro</title>
+<link rel="stylesheet" type="text/css" href="Cadastro.css">
+</head>
+<body>
+	<form>
+	<center>
+		<h1>Carros&Cars</h1>
+	<section>
+		<img id = "img" src="img/carros&cars.png" width="70%" height="40%">
+		<p>Bem vindo a Área de Cadastro</p>
+		<p>Por favor, informe os dados abaixo</p>
+		<table>
+			<tr>
+				<td>Nome:</td>
+				<td>
+					<input type="text" name="nome" maxlength="75">
+				</td>
+			</tr>	
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="text" name="e-mail" maxlength="75"></td>
+			</tr>
+			<tr>
+				<td>Sexo:</td>
+				<td><input id="sexo" type="radio" name="Sexo">
+        		<label for = "scales">Masculino</label>
+        		<input id="sexo" type="radio" name="Sexo">
+        		<label for = "scales">Feminino</label>
+			</tr>
+			<tr>
+				<td>CPF:</td>
+				<td><input type="number" name="cpf" maxlength="75"></td>
+			</tr>
+			<tr>
+				<td>RG:</td>
+				<td><input type="number" name="rg" maxlength="75"></td>
+			</tr>
+			<tr>
+				<td>Função:</td>
+				<td><input type="text" name="funcao" maxlength="75">
+
+				</td>
+			</tr>
+			<tr>
+				<td>Data de Nascimento:</td>
+				<td>
+					<input type="date" name="data">
+				</td>
+			</tr>
+			<tr>
+				<td>Telefone:</td>
+				<td><input type="tel" name="rg" maxlength="75"></td>
+			</tr>
+			<tr>
+				<td><input id="salvar" type="button" name="salvar" value="Salvar"></td>
+				<td><input id="limpar" type="reset" name="limpar" value="Limpar"></td>
+			</tr>
+		</table>
+	</section>
+	</center>
+	</form>
+</body>
+</html>

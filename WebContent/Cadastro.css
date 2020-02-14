@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+body {background: purple; font-size: 12px; font-family: arial;}	
+	p {color: black; font-family: Arial; font-size: 20px; }
+	h1 {color: white; font-family: Arial; font-size: 45px; }
+	table {border: 5; align-content: center;}
+	section {background: white; 
+		width: 500px; 
+		height: 700px; 
+		padding: 10px; 
+		margin: auto; 
+		border-radius: 30px; 
+		box-shadow: 4px 4px 4px black;}
+	input {
+		height: 20px;
+		padding: 2px; 
+	}
+	#salvar {
+		width: 100px;
+		height: 20px;
+	}
+	#limpar {
+		width: 100px;
+		height: 20px;

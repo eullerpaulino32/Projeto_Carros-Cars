@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+p {color:black; font-family: Arial; font-size: 20px;}
+h1, h2 {color: white; font-family: Arial; font-size: 45px; text-align: center; }
+form { margin: 0 auto; }
+body {background: purple; font-size: 12px; font-family: arial;}	
+section {
+		background: white; 
+		width: 1200px;
+		height: 500px; 
+		padding: 10px; 
+		margin: auto; 
+		border-radius: 30px; 
+		box-shadow: 4px 4px 4px black;}
+.menuPrincipal{
+	list-style: none; 
+	border:0px solid #c0c0c0; 
+	float: center; 
+
+}
+.menuPrincipal li{
+	position:relative; 
+	float:right; 
+	border-right:1px solid #c0c0c0; 
+}
+.menuPrincipal li a {
+	background: purple;
+	color: white; 
+	padding: 5px 10px; 
+	display: block;
+	text-decoration: none;
+}
+.menuPrincipal li a:hover{
+	/*hover é para quando passa-se o mouse em cima-->*/
+	background: white;
+	color: black;
+	text-shadow: 0px 0px 5px #fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+}
+
+img {
+	width: 500px;
+	height: 400px;
+	float: right;
+}
+
+
+
+
+
+	
